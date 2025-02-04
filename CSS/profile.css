@@ -162,9 +162,13 @@ nav ul li a {
   .profile, .bio, .gallery{
     padding: 30px;
   }
-  .contact-form form{
-        display: flex;
-        flex-direction: column;
-    
+  .contact-form form {
+    grid-template-columns: 1fr;
+  }
+  .contact-form form button {
+      /* we have to make the button occupy auto or 1 column,
+         before it occupied 2 col but now our container has 1 column!
+         so the columns the button occupy must change */
+      grid-column: auto;
   }
 }
