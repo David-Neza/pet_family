@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Bambi",
+      "breed": "Chihuahua",
+      "age": 3,
+      "image": "./IMAGES/girly.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Max",
+      "breed": "Labrador",
+      "age": 5,
+      "image": "./IMAGES/max-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bella",
+      "breed": "Poodle",
+      "age": 4,
+      "image": "./IMAGES/bella.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Charlie",
+      "breed": "Boxer",
+      "age": 2,
+      "image": "./IMAGES/jag.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Lucy",
+      "breed": "Beagle",
+      "age": 6,
+      "image": "./IMAGES/cute dog.jpg"
+    }
+  ]
+  

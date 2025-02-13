@@ -29,4 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const message = document.getElementById("text_area").value;
     alert(`${message} By:${name} email address ${email} `);
   });
+
+  const parameters = new URLSearchParams(window.location.search);
+  console.log("params**", parameters.get("id"));
 });
